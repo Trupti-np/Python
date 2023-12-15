@@ -1,1 +1,111 @@
+Create one variable containing following type of data:
+(i) string
+    a="hello"
+    type(a)
+    output:str
+(ii) list
+     b = [ '12.3' , 'ML', '3' ]
+     type(b)
+     output:list
+(iii) float
+      c=3.14
+      type(c)
+      output:float
+(iv) tuple
+      d=(4,2.3,'ML')
+       type(c)
+      output:tuple
+Given are some following variables containing data:
+(i) var1 = ‘ ‘
+    string
+(ii) var2 = ‘[ DS , ML , Python]’
+     string 
+(iii) var3 = [ ‘DS’ , ’ML’ , ‘Python’ ]
+      list
+(iv) var4 = 1.
+      float
+ Explain the use of the following operators using an example:
+(i) / : It is used to perform division operation
+c=2/6
+print(c)
+output:0.33
+(ii) % : It is used to perform division operation and prints remainder
+d=3%6
+print(d)
+output:3
+(iii) //: Its is floor operator it basicaly round-off and prints whole number as here answer is 5.33 it round-off to 5
+16//3
+output:5
+(iv) **:It is used as power operator
+2**3
+output:8
 
+Create a list of length 10 of your choice containing multiple types of data. Using for loop print the
+element and its data type.
+
+b=[1.0,23.4,3.14,"hi","hello","welcome",True,False,9,3+4j]
+for j in b:
+    print(j,type(j))
+
+output:
+1.0 <class 'float'>
+23.4 <class 'float'>
+3.14 <class 'float'>
+hi <class 'str'>
+hello <class 'str'>
+welcome <class 'str'>
+True <class 'bool'>
+False <class 'bool'>
+9 <class 'int'>
+(3+4j) <class 'complex'>
+
+Using a while loop, verify if the number A is purely divisible by number B and if so then how many
+times it can be divisible.
+ 
+a=int(input("Enter value of a"))
+b=int(input("Enter value of b"))
+while a%b==0:
+   print("divisible","a is divisible by b for", a/b,"times")
+   break
+        
+else:
+   print("not divisible")
+   output:         
+ Enter value of a 21
+Enter value of b 3
+divisible a is divisible by b for 7.0 times
+         
+
+  Create a list containing 25 int type data. Using for loop and if-else condition print if the element is
+divisible by 3 or not.
+l=[3,6,9,1,4,30,15,17,16,12,19,20,21,24,27,29,60,25,10,40]
+for j in l:
+    if j%3==0:
+        print(j,"its divisible by 3")
+    else:
+        print(j,"its not divisible by 3")
+    
+output:
+  3 its divisible by 3
+6 its divisible by 3
+9 its divisible by 3
+1 its not divisible by 3
+4 its not divisible by 3
+30 its divisible by 3
+15 its divisible by 3
+17 its not divisible by 3
+16 its not divisible by 3
+12 its divisible by 3
+19 its not divisible by 3
+20 its not divisible by 3
+21 its divisible by 3
+24 its divisible by 3
+27 its divisible by 3
+29 its not divisible by 3
+60 its divisible by 3
+25 its not divisible by 3
+10 its not divisible by 3
+40 its not divisible by 3  
+
+Q7. What do you understand about mutable and immutable data types? Give examples for both showing
+this property.
