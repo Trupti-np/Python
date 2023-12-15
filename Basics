@@ -109,3 +109,14 @@ output:
 
 Q7. What do you understand about mutable and immutable data types? Give examples for both showing
 this property.
+Mutable
+l=[1,2,3,"hi"]
+l[2]=6
+l
+output
+[1, 2, 6, 'hi']
+
+Immutable
+a="hey"
+a[2]=6
+TypeError: 'str' object does not support item assignment
